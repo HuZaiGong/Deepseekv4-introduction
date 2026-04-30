@@ -3,210 +3,237 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="DeepSeek V4 - 下一代通用人工智能模型，展示核心架构、能力突破与应用场景">
-    <meta name="keywords" content="DeepSeek, V4, AI, LLM, 大语言模型，人工智能">
-    <title>DeepSeek V4 · 下一代通用人工智能模型</title>
+    <meta name="description" content="全球大模型导航 - 收录国内外主流大语言模型，包括 DeepSeek、GPT、Claude 等">
+    <meta name="keywords" content="大模型，AI, LLM, DeepSeek, GPT, Claude, 人工智能">
+    <title>全球大模型导航</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- 导航栏 -->
     <header class="navbar glass-card">
         <div class="logo-group">
-            <span class="logo-icon">🚀</span>
-            <span class="logo-text">DeepSeek V4</span>
+            <span class="logo-icon">🌐</span>
+            <span class="logo-text">大模型导航</span>
         </div>
         <nav>
-            <a href="#architecture" class="nav-link">架构</a>
-            <a href="#capabilities" class="nav-link">能力</a>
-            <a href="#applications" class="nav-link">应用</a>
-            <a href="#timeline" class="nav-link">演进</a>
+            <a href="index.html" class="nav-link active">首页</a>
+            <a href="#domestic" class="nav-link">国产模型</a>
+            <a href="#international" class="nav-link">国外模型</a>
         </nav>
     </header>
 
     <!-- 英雄区域 -->
     <section class="hero-section">
         <div class="hero-content">
-            <h1 class="hero-title">DeepSeek V4</h1>
-            <p class="gradient-text">下一代通用人工智能模型</p>
-            <div class="hero-stats">
-                <div class="stat-card glass-card">
-                    <span class="stat-number">671B</span>
-                    <span class="stat-label">总参数量</span>
+            <h1 class="hero-title">全球大模型导航</h1>
+            <p class="gradient-text">探索最前沿的人工智能模型</p>
+            <p class="hero-subtitle">收录国内外主流大语言模型，一站式了解 AI 技术演进</p>
+        </div>
+    </section>
+
+    <!-- 国产大模型分类 -->
+    <section id="domestic" class="section">
+        <div class="section-header">
+            <h2 class="section-title">🇨🇳 国产大模型</h2>
+            <p>中国自主研发的大语言模型，展现科技实力</p>
+        </div>
+        <div class="model-grid">
+            <!-- DeepSeek 系列 -->
+            <div class="model-category-card glass-card">
+                <div class="category-header">
+                    <span class="category-icon">🔍</span>
+                    <h3>DeepSeek 系列</h3>
                 </div>
-                <div class="stat-card glass-card">
-                    <span class="stat-number">37B</span>
-                    <span class="stat-label">激活参数</span>
+                <p class="category-desc">深度求索推出的高性能开源模型系列</p>
+                <div class="model-list">
+                    <a href="deepseek-v4.html" class="model-item">
+                        <span class="model-name">DeepSeek V4</span>
+                        <span class="model-tag flagship">旗舰版</span>
+                    </a>
+                    <a href="deepseek-flash.html" class="model-item">
+                        <span class="model-name">DeepSeek Flash</span>
+                        <span class="model-tag speed">极速版</span>
+                    </a>
+                    <a href="deepseek-pro.html" class="model-item">
+                        <span class="model-name">DeepSeek Pro</span>
+                        <span class="model-tag pro">专业版</span>
+                    </a>
                 </div>
-                <div class="stat-card glass-card">
-                    <span class="stat-number">256K</span>
-                    <span class="stat-label">上下文窗口</span>
+            </div>
+
+            <!-- 通义千问系列 -->
+            <div class="model-category-card glass-card">
+                <div class="category-header">
+                    <span class="category-icon">💫</span>
+                    <h3>通义千问系列</h3>
                 </div>
-                <div class="stat-card glass-card">
-                    <span class="stat-number">Top 3</span>
-                    <span class="stat-label">全球排名</span>
+                <p class="category-desc">阿里巴巴推出的多模态大模型</p>
+                <div class="model-list">
+                    <a href="#" class="model-item placeholder">
+                        <span class="model-name">Qwen-Max</span>
+                        <span class="model-tag">敬请期待</span>
+                    </a>
+                    <a href="#" class="model-item placeholder">
+                        <span class="model-name">Qwen-Plus</span>
+                        <span class="model-tag">敬请期待</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 文心一言系列 -->
+            <div class="model-category-card glass-card">
+                <div class="category-header">
+                    <span class="category-icon">📚</span>
+                    <h3>文心一言系列</h3>
+                </div>
+                <p class="category-desc">百度推出的知识增强大模型</p>
+                <div class="model-list">
+                    <a href="#" class="model-item placeholder">
+                        <span class="model-name">ERNIE Bot 4.0</span>
+                        <span class="model-tag">敬请期待</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Kimi -->
+            <div class="model-category-card glass-card">
+                <div class="category-header">
+                    <span class="category-icon">🌙</span>
+                    <h3>Kimi</h3>
+                </div>
+                <p class="category-desc">月之暗面推出的长上下文模型</p>
+                <div class="model-list">
+                    <a href="#" class="model-item placeholder">
+                        <span class="model-name">Kimi Chat</span>
+                        <span class="model-tag">敬请期待</span>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 架构分层 -->
-    <section id="architecture" class="section dark-bg">
+    <!-- 国外大模型分类 -->
+    <section id="international" class="section dark-bg">
         <div class="section-header">
-            <h2 class="section-title">核心架构</h2>
-            <p>MoE 混合专家架构，高效稀疏激活</p>
+            <h2 class="section-title">🌍 国外大模型</h2>
+            <p>国际领先的人工智能模型，引领技术前沿</p>
         </div>
-        <div class="architecture-stack">
-            <div class="arch-layer glass-card">
-                <h3>输入嵌入层</h3>
-                <p>多粒度 Token 化与位置编码</p>
-                <span class="layer-badge">Embedding Dim: 7168</span>
-            </div>
-            <div class="connector"></div>
-            <div class="arch-layer glass-card highlight">
-                <h3>MoE 注意力层</h3>
-                <p>多头查询注意力 + 动态专家路由</p>
-                <span class="layer-badge">60 Layers · 256 Heads</span>
-            </div>
-            <div class="connector"></div>
-            <div class="arch-layer glass-card highlight">
-                <h3>专家混合层</h3>
-                <p>256 专家池，每 Token 激活 8 专家</p>
-                <span class="layer-badge">MoE · Sparse Activation</span>
-            </div>
-            <div class="connector"></div>
-            <div class="arch-layer glass-card">
-                <h3>输出投影层</h3>
-                <p>高维特征映射与概率分布</p>
-                <span class="layer-badge">Vocab Size: 129K</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- 能力网格 -->
-    <section id="capabilities" class="section">
-        <div class="section-header">
-            <h2 class="section-title">能力突破</h2>
-            <p>全方位超越前代，引领行业标杆</p>
-        </div>
-        <div class="capability-grid">
-            <div class="capability-card glass-card">
-                <div class="capability-icon">🧠</div>
-                <h3>逻辑推理</h3>
-                <p>复杂数学问题与多步推导</p>
-                <div class="capability-meter" data-level="95"></div>
-                <span class="layer-badge">MATH: 92.3%</span>
-            </div>
-            <div class="capability-card glass-card">
-                <div class="capability-icon">💻</div>
-                <h3>代码生成</h3>
-                <p>多语言编程与调试优化</p>
-                <div class="capability-meter" data-level="93"></div>
-                <span class="layer-badge">HumanEval: 88.5%</span>
-            </div>
-            <div class="capability-card glass-card">
-                <div class="capability-icon">🌍</div>
-                <h3>多语言支持</h3>
-                <p>覆盖 100+ 语种流畅交互</p>
-                <div class="capability-meter" data-level="90"></div>
-                <span class="layer-badge">100+ Languages</span>
-            </div>
-            <div class="capability-card glass-card">
-                <div class="capability-icon">📊</div>
-                <h3>数据分析</h3>
-                <p>图表解读与洞察提取</p>
-                <div class="capability-meter" data-level="89"></div>
-                <span class="layer-badge">ChartQA: Top 5</span>
-            </div>
-            <div class="capability-card glass-card">
-                <div class="capability-icon">🔬</div>
-                <h3>科学推理</h3>
-                <p>物理化学生物跨学科能力</p>
-                <div class="capability-meter" data-level="87"></div>
-                <span class="layer-badge">GPQA: 71.2%</span>
-            </div>
-            <div class="capability-card glass-card">
-                <div class="capability-icon">✍️</div>
-                <h3>创意写作</h3>
-                <p>长文本生成与风格迁移</p>
-                <div class="capability-meter" data-level="91"></div>
-                <span class="layer-badge">256K Context</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- 应用场景 -->
-    <section id="applications" class="section dark-bg">
-        <div class="section-header">
-            <h2 class="section-title">应用场景</h2>
-            <p>赋能千行百业，驱动智能升级</p>
-        </div>
-        <div class="app-cards">
-            <div class="app-card glass-card">
-                <div class="capability-icon">🏥</div>
-                <h3>医疗健康</h3>
-                <p>辅助诊断、药物研发、病历分析</p>
-            </div>
-            <div class="app-card glass-card">
-                <div class="capability-icon">⚖️</div>
-                <h3>法律服务</h3>
-                <p>合同审查、案例检索、合规咨询</p>
-            </div>
-            <div class="app-card glass-card">
-                <div class="capability-icon">🎓</div>
-                <h3>教育培训</h3>
-                <p>个性化辅导、智能评测、内容生成</p>
-            </div>
-            <div class="app-card glass-card">
-                <div class="capability-icon">💼</div>
-                <h3>金融服务</h3>
-                <p>风险评估、投研分析、客服助手</p>
-            </div>
-            <div class="app-card glass-card">
-                <div class="capability-icon">🎮</div>
-                <h3>娱乐创意</h3>
-                <p>游戏 NPC、剧本创作、艺术设计</p>
-            </div>
-            <div class="app-card glass-card">
-                <div class="capability-icon">🏭</div>
-                <h3>工业制造</h3>
-                <p>工艺优化、故障预测、供应链管理</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- 时间线 -->
-    <section id="timeline" class="section">
-        <div class="section-header">
-            <h2 class="section-title">演进历程</h2>
-            <p>从追赶到领先的技术跨越</p>
-        </div>
-        <div class="timeline">
-            <div class="timeline-item glass-card">
-                <div class="timeline-year">2023 Q2</div>
-                <div class="timeline-content">
-                    <h4>DeepSeek V1 发布</h4>
-                    <p>首款开源模型，展现基础对话能力</p>
+        <div class="model-grid">
+            <!-- OpenAI 系列 -->
+            <div class="model-category-card glass-card">
+                <div class="category-header">
+                    <span class="category-icon">🤖</span>
+                    <h3>OpenAI 系列</h3>
+                </div>
+                <p class="category-desc">OpenAI 推出的 GPT 系列模型</p>
+                <div class="model-list">
+                    <a href="gpt-4.html" class="model-item">
+                        <span class="model-name">GPT-4</span>
+                        <span class="model-tag flagship">旗舰版</span>
+                    </a>
+                    <a href="gpt-4-turbo.html" class="model-item">
+                        <span class="model-name">GPT-4 Turbo</span>
+                        <span class="model-tag speed">极速版</span>
+                    </a>
+                    <a href="gpt-3.5.html" class="model-item placeholder">
+                        <span class="model-name">GPT-3.5</span>
+                        <span class="model-tag">敬请期待</span>
+                    </a>
                 </div>
             </div>
-            <div class="timeline-item glass-card">
-                <div class="timeline-year">2023 Q4</div>
-                <div class="timeline-content">
-                    <h4>DeepSeek V2 升级</h4>
-                    <p>引入 MoE 架构，性能大幅提升</p>
+
+            <!-- Anthropic 系列 -->
+            <div class="model-category-card glass-card">
+                <div class="category-header">
+                    <span class="category-icon">🎯</span>
+                    <h3>Anthropic 系列</h3>
+                </div>
+                <p class="category-desc">Anthropic 推出的 Claude 系列模型</p>
+                <div class="model-list">
+                    <a href="claude-3-opus.html" class="model-item">
+                        <span class="model-name">Claude 3 Opus</span>
+                        <span class="model-tag flagship">旗舰版</span>
+                    </a>
+                    <a href="claude-3-sonnet.html" class="model-item placeholder">
+                        <span class="model-name">Claude 3 Sonnet</span>
+                        <span class="model-tag">敬请期待</span>
+                    </a>
+                    <a href="claude-3-haiku.html" class="model-item placeholder">
+                        <span class="model-name">Claude 3 Haiku</span>
+                        <span class="model-tag">敬请期待</span>
+                    </a>
                 </div>
             </div>
-            <div class="timeline-item glass-card">
-                <div class="timeline-year">2024 Q2</div>
-                <div class="timeline-content">
-                    <h4>DeepSeek Coder</h4>
-                    <p>专注代码领域，媲美商业闭源模型</p>
+
+            <!-- Google 系列 -->
+            <div class="model-category-card glass-card">
+                <div class="category-header">
+                    <span class="category-icon">✨</span>
+                    <h3>Google 系列</h3>
+                </div>
+                <p class="category-desc">Google 推出的 Gemini 系列模型</p>
+                <div class="model-list">
+                    <a href="gemini-pro.html" class="model-item">
+                        <span class="model-name">Gemini Pro</span>
+                        <span class="model-tag pro">专业版</span>
+                    </a>
+                    <a href="gemini-ultra.html" class="model-item placeholder">
+                        <span class="model-name">Gemini Ultra</span>
+                        <span class="model-tag">敬请期待</span>
+                    </a>
                 </div>
             </div>
-            <div class="timeline-item glass-card highlight">
-                <div class="timeline-year">2024 Q4</div>
-                <div class="timeline-content">
-                    <h4>DeepSeek V4 问世</h4>
-                    <p>671B 参数，256K 上下文，全球前三</p>
+
+            <!-- Meta 系列 -->
+            <div class="model-category-card glass-card">
+                <div class="category-header">
+                    <span class="category-icon">🦙</span>
+                    <h3>Meta 系列</h3>
+                </div>
+                <p class="category-desc">Meta 推出的 Llama 开源模型</p>
+                <div class="model-list">
+                    <a href="llama-3.html" class="model-item">
+                        <span class="model-name">Llama 3</span>
+                        <span class="model-tag open">开源</span>
+                    </a>
+                    <a href="llama-2.html" class="model-item placeholder">
+                        <span class="model-name">Llama 2</span>
+                        <span class="model-tag">敬请期待</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Mistral 系列 -->
+            <div class="model-category-card glass-card">
+                <div class="category-header">
+                    <span class="category-icon">🌪️</span>
+                    <h3>Mistral 系列</h3>
+                </div>
+                <p class="category-desc">Mistral AI 推出的高效模型</p>
+                <div class="model-list">
+                    <a href="mistral-large.html" class="model-item placeholder">
+                        <span class="model-name">Mistral Large</span>
+                        <span class="model-tag">敬请期待</span>
+                    </a>
+                    <a href="mistral-medium.html" class="model-item placeholder">
+                        <span class="model-name">Mistral Medium</span>
+                        <span class="model-tag">敬请期待</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Cohere 系列 -->
+            <div class="model-category-card glass-card">
+                <div class="category-header">
+                    <span class="category-icon">🔗</span>
+                    <h3>Cohere 系列</h3>
+                </div>
+                <p class="category-desc">Cohere 推出的企业级模型</p>
+                <div class="model-list">
+                    <a href="command-r.html" class="model-item placeholder">
+                        <span class="model-name">Command R+</span>
+                        <span class="model-tag">敬请期待</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -214,8 +241,8 @@
 
     <!-- 页脚 -->
     <footer class="footer">
-        <p>&copy; 2024 DeepSeek. All rights reserved.</p>
-        <p>Powered by Advanced AI Technology</p>
+        <p>&copy; 2024 大模型导航。All rights reserved.</p>
+        <p>探索 AI 无限可能 · 持续更新中</p>
     </footer>
 
     <script src="app.js"></script>

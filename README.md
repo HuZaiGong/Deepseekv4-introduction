@@ -1,6 +1,6 @@
-# DeepSeek V4 介绍页面
+# 全球大模型导航
 
-紧跟时事的 LLM 介绍页面，采用现代化设计展示 DeepSeek V4 大语言模型的核心架构、能力突破与应用场景。
+一个现代化的大语言模型导航网站，分类展示国内外主流 AI 大模型，包括 DeepSeek、GPT、Claude、Gemini 等。采用现代化设计，提供清晰的模型分类和详细的模型介绍页面。
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -9,7 +9,23 @@
 
 ## 🌟 项目简介
 
-一个现代化、多层次、立体化的 **LLM 介绍网页**，采用 HTML/CSS/JS 完全分离的架构，通过玻璃态设计、动态动画和交互式组件，全方位展示 DeepSeek V4 大语言模型核心架构、能力突破与应用场景。
+一个**大模型导航网站**，采用 HTML/CSS/JS 完全分离的架构，通过玻璃态设计、动态动画和交互式组件，分类展示国内外主流大语言模型。
+
+### 模型分类
+
+#### 🇨🇳 国产大模型
+- **DeepSeek 系列**: DeepSeek V4（旗舰版）、DeepSeek Flash（极速版）、DeepSeek Pro（专业版）
+- **通义千问系列**: Qwen-Max、Qwen-Plus
+- **文心一言系列**: ERNIE Bot 4.0
+- **Kimi**: Kimi Chat
+
+#### 🌍 国外大模型
+- **OpenAI 系列**: GPT-4、GPT-4 Turbo、GPT-3.5
+- **Anthropic 系列**: Claude 3 Opus、Claude 3 Sonnet、Claude 3 Haiku
+- **Google 系列**: Gemini Pro、Gemini Ultra
+- **Meta 系列**: Llama 3、Llama 2
+- **Mistral 系列**: Mistral Large、Mistral Medium
+- **Cohere 系列**: Command R+
 
 ### 性能优化亮点
 
@@ -24,20 +40,27 @@
 ## ✨ 核心特性
 
 - **Glassmorphism 设计**：毛玻璃质感与现代渐变配色
-- **3D 层次感**：通过堆叠卡片和连接线呈现模型架构
+- **模型分类导航**：清晰的国产/国外模型分类结构
+- **版本标签系统**：旗舰版、极速版、专业版、开源版等标签标识
 - **响应式布局**：完美适配桌面、平板与移动设备
 - **平滑交互动画**：滚动视差、数字递增、悬停效果（性能优化版）
-- **语义化结构**：清晰的模块划分（架构/能力/应用/演进）
+- **语义化结构**：清晰的模块划分（分类/详情/特性/应用）
 - **SEO 友好**：完整的 meta 标签和语义化 HTML 结构
+- **易扩展模板**：提供 template.html 模板文件，快速添加新模型页面
 
 ## 📁 文件结构
 
 ```
-├── index.html      # HTML 结构层（完整语义化结构）
-├── style.css       # 样式定义层（玻璃态、动画、响应式）
-├── app.js          # 行为交互层（模块化、性能优化）
-├── README.md       # 项目文档
-└── LICENSE         # MIT 开源协议
+├── index.html          # 首页（模型分类导航）
+├── deepseek-v4.html    # DeepSeek V4 详情页
+├── deepseek-flash.html # DeepSeek Flash 详情页
+├── deepseek-pro.html   # DeepSeek Pro 详情页
+├── gpt-4.html          # GPT-4 详情页（示例）
+├── template.html       # 模型详情页模板（可复制修改）
+├── style.css           # 样式定义层（玻璃态、动画、响应式）
+├── app.js              # 行为交互层（模块化、性能优化）
+├── README.md           # 项目文档
+└── LICENSE             # MIT 开源协议
 ```
 
 ## 🚀 快速开始
@@ -91,9 +114,9 @@ npx live-server
 |------|----------|----------|
 | 导航栏 | 固定毛玻璃，平滑滚动锚点 | 节流处理 |
 | 英雄区 | 动态光晕 + 统计数字动画 | RAF + 缓动函数 |
-| 架构图 | 5 层堆叠展示 MoE 核心 | GPU 加速过渡 |
+| 模型卡片 | 分类网格布局，版本标签 | GPU 加速过渡 |
 | 能力卡片 | 数据属性驱动进度条 | CSS 变量动画 |
-| 时间线 | 高亮 V4 里程碑节点 | 最小化重排 |
+| 时间线 | 高亮里程碑节点 | 最小化重排 |
 
 ## 🔧 技术栈
 
@@ -110,6 +133,18 @@ npx live-server
 | 动画流畅度 | 阶梯式 | 平滑缓动 | 主观提升明显 |
 | 事件监听器 | 阻塞式 | 被动式 | 滚动更流畅 |
 | CPU 占用 | 较高 | 降低约 40% | 更省电 |
+
+## 📝 添加新模型页面
+
+1. 复制 `template.html` 文件
+2. 重命名为对应模型名称（如 `claude-3-opus.html`）
+3. 修改页面中的占位内容：
+   - 标题和 meta 描述
+   - 模型徽章（旗舰版/极速版/专业版等）
+   - 统计数据卡片
+   - 核心特性介绍
+   - 应用场景描述
+4. 在 `index.html` 中添加对应的模型链接
 
 ## 📄 开源协议
 
