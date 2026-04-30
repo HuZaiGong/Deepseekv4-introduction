@@ -1,4 +1,4 @@
-# DeepSeek V4 技术介绍页面
+#紧跟时事的 LLM 介绍页面
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -7,7 +7,7 @@
 
 ## 🌟 项目简介
 
-一个现代化、多层次、立体化的 **DeepSeek V4 模型介绍网页**，采用 HTML/CSS/JS 完全分离的架构，通过玻璃态设计、动态动画和交互式组件，全方位展示 DeepSeek V4 的核心架构、能力突破与应用场景。
+一个现代化、多层次、立体化的 **LLM 介绍网页**，采用 HTML/CSS/JS 完全分离的架构，通过玻璃态设计、动态动画和交互式组件，全方位展示不同大语言模型核心架构、能力突破与应用场景。
 
 ## ✨ 核心特性
 
@@ -26,21 +26,20 @@
 ## 🚀 快速开始
 ### 本地运行
 1. 克隆仓库
-```bash
-git clone https://github.com/HuZaiGong/Deepseekv4-introduction.git
-cd Deepseekv4-introduction
-# Python 3
-python -m http.server 8000
-# Node.js (需安装 live-server)
-npx live-server
-浏览器访问 http://localhost:8000
-部署到 GitHub Pages
-推送代码到 main 分支
-进入仓库 Settings → Pages
-选择分支 main 和根目录 /
-访问 https://HuZaiGong.github.io/Deepseekv4-introduction
-```bash
-
+``` bash
+  git clone https://github.com/HuZaiGong/Deepseekv4-introduction.git
+  cd Deepseekv4-introduction
+  # Python 3
+  python -m http.server 8000
+  # Node.js (需安装 live-server)
+  npx live-server
+  浏览器访问 http://localhost:8000
+  部署到 GitHub Pages
+  推送代码到 main 分支
+  进入仓库 Settings → Pages
+  选择分支 main 和根目录 /
+  访问 https://HuZaiGong.github.io/Deepseekv4-introduction
+```
 🎨 设计亮点
 模块	设计要点
 导航栏	固定毛玻璃，平滑滚动锚点
@@ -53,6 +52,6 @@ MIT License
 
 🙏 致谢
 图标资源来自 Emoji
-灵感源自 DeepSeek 官方技术博客
+灵感源自网络
 📬 联系方式
 如有建议或改进，欢迎提交 Issue 或 Pull Request！
